@@ -23,11 +23,13 @@ public class Compte {
         return soldeDuCompte;
     }
 
+    /**
+     * Représente l'objet {@link Compte} sous forme de chaîne de caractères.
+     *
+     * @return Chaîne contenant les attributs du compte formatés
+     */
     @Override
     public String toString() {
-        return "Compte{" +
-                "numeroDeCompte=" + numeroDeCompte +
-                ", soldeDuCompte=" + soldeDuCompte +
-                '}';
+        return "Compte{numéro=" + numeroDeCompte + ", solde=" + soldeDuCompte + '}';
     }
 }
