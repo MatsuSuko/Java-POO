@@ -1,4 +1,4 @@
-package fr.diginamic.essais;
+package fr_diginamic_essais;
 
 import fr_diginamic_entites.Cercle;
 import fr_diginamic_utils.CercleFactory;
