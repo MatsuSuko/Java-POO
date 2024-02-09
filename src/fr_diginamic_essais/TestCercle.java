@@ -1,12 +1,13 @@
-package fr_diginamic_essais;
+package fr.diginamic.essais;
 
 import fr_diginamic_entites.Cercle;
+import fr_diginamic_utils.CercleFactory;
 
 public class TestCercle {
     public static void main(String[] args) {
-        // Instanciation de deux cercles avec des rayons différents
-        Cercle cercle1 = new Cercle(7);
-        Cercle cercle2 = new Cercle(21);
+        // Utilisation de la méthode statique de CercleFactory pour créer les cercles
+        Cercle cercle1 = CercleFactory.creerCercle(5);
+        Cercle cercle2 = CercleFactory.creerCercle(7.5);
 
         // Affichage des résultats des méthodes de calcul de périmètre et de calcul de surface pour chaque cercle
         System.out.println("Cercle 1 :");
